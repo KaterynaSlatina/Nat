@@ -5,12 +5,19 @@
 }
 
 body {
-  background-image: url(rat-2.jpg);
+  background: url(rat-2.jpg) center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 div {
   position: relative;
+}
+
+.divBtn {
+  display: flex;
+  margin-top: 600px;
+  /* justify-content: center; */
 }
 
 h2 {
@@ -22,12 +29,15 @@ h2 {
 }
 
 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   width: 200px;
   height: 100px;
-  margin-top: 600px;
   margin-left: 500px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+
   border-radius: 10px;
   font-size: 40px;
   border: none;
