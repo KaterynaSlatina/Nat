@@ -37,7 +37,7 @@ button {
 
 .no-btn:hover {
   position: absolute;
-  left: 100%;
-  right: 100%;
+  left: 50%;
+  right: 50%;
   transition: 00.09s;
 }
