@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/rat-2.jpg);
+  background-size: cover;
+}
+
+div {
+  position: relative;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6d344f;
+  font-size: 50px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  width: 200px;
+  height: 100px;
+  margin-top: 600px;
+  margin-left: 500px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  font-size: 40px;
+  border: none;
+  box-shadow: 10px 13px 10px 0px #df3c88;
+  background-color: rgba(214, 126, 167, 1);
+}
+
+.no-btn:hover {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transition: 00.09s;
+}
