@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(/rat-2.jpg);
+  background-image: url(rat-2.jpg);
   background-size: cover;
 }
 
@@ -37,7 +37,7 @@ button {
 
 .no-btn:hover {
   position: absolute;
-  left: 50%;
-  right: 50%;
+  left: 100%;
+  right: 100%;
   transition: 00.09s;
 }
