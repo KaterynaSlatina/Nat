@@ -10,14 +10,13 @@ body {
   margin: 0 auto;
 }
 
-div {
+.text-cont {
   position: relative;
 }
 
 .divBtn {
   display: flex;
   margin-top: 600px;
-  /* justify-content: center; */
 }
 
 h2 {
