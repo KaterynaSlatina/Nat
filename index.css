@@ -6,7 +6,6 @@
 
 body {
   background-image: url(rat-2.jpg);
-  /* background: url(rat-2.jpg) center; */
   background-size: cover;
   margin: 0 auto;
 }
@@ -19,7 +18,7 @@ body {
   display: flex;
   margin-top: 500px;
   margin-bottom: 100px;
-  margin-left: 400px;
+  margin-left: 300px;
 }
 
 h2 {
@@ -31,7 +30,6 @@ h2 {
   font-size: 50px;
   margin-top: 20px;
   text-align: center;
-  /* width: 1500px; */
   border-radius: 20px;
 }
 
@@ -52,16 +50,12 @@ button {
   background-color: rgba(214, 126, 167, 1);
 }
 
-/* .yes-btn {
-  margin-left: 300px;
-} */
-
 .no-btn:hover {
   position: absolute;
   left: 50%;
   right: 50%;
-  /* transition: 00.09s; */
 }
+
 .yes-btn:hover {
   position: absolute;
   font-size: 100px;
